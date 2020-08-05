@@ -14,7 +14,7 @@ The features of the plot are described below:
 
 ### 1. Controls
 
-![controls_image](controls)
+![controls_image](controls.png)
 
 * Home View : When clicked, rings back the zoomed-in/zoomed-out plot to the full view which is the entire sky map conatining all RA/DECs. 
 * Pan zoom : When clicked, the default cursor changes and touchpad/mouse motions can be used to zoom-in/zoom-out the view on the plot. (**NOTE**: Do not create hops with this, always double-click the icon first to get the default cursor and then click for hops) 
