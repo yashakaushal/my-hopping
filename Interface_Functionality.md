@@ -16,31 +16,48 @@ The features of the plot are described below:
 ![controls_image](controls.png)
 
 * Home View : When clicked, rings back the zoomed-in/zoomed-out plot to the full view which is the entire sky map conatining all RA/DECs. 
+
 ![home_view](home-view.png)
+
 * Pan zoom : When clicked, the default cursor changes and touchpad/mouse motions can be used to zoom-in/zoom-out the view on the plot. (**NOTE**: Do not create hops with this, always double-click the icon first to get the default cursor and then click for hops) 
+
 ![pan-zoom](after_rect-zoom.png)
+
 * Zoom-to-rectangle : When clicked, allows you to select a region of the full sky-map near the target, very useful in creating hops in a given region of RA/DEC
+
 ![rect_zoom](rect-selection.png)
 
 Double clicking the controls will bring the default mouse cursor back.
 
 ### 2. Buttons
 ![buttons](buttons.png)
+
 * Save Hops : Once you are satisfied with your selection of hop sequence, hit this button, two window prompts will pop up for saving two text files (depends on browser settings) - a. Asking the set of instructions you want to save with the hops, the name of the file, target location for saving  b. Asking for saving the hopping sequence you created with name and location for saving the file.
+
 ![save_hops](hop-details-prompt.png)
+
 ![info_save](hop-info-save.png)
+
 ![hop_save](hop-list-save.png)
-![download](downloaded-rompt.png)
+
+![download](downloaded-prompt.png)
+
 * Undo : If you did not mean to store a hop or accidentally clicked on the plot, use this to remove that hop.
+
 ![undo](deleted-hop-prompt.png)
+
 * Clear All : Click this to reset everything and remove all the hops stored. 
+
 ![delete](clear-all-prompt.png)
+
 * Hop list : CLick this to see the updated list of hops you have created so far. The format is (RA1,DEC1 RA2,DEC2 ...)
+
 ![hop-list](hop-list-button.png)
 
 ### 3. On-screen updates
 * Deleted Hop : After 'Undo', this will update and display the hop you just deleted. Format is (RA,DEC)
 * Last Hop : This will show the last hop stored in the hopping sequence. Format is (RA,DEC)
+
 ![del_last](del-last-button.png)
 
 
